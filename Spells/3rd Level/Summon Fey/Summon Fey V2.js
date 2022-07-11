@@ -12,6 +12,7 @@ MidiQOL OnUse -  ItemMacro - before active effect
 */
 
 const casterToken = game.actors.get(args[0].actor._id);
+const tokenD = canvas.tokens.get(args[0].tokenId);
 const spelllevel = args[0].spellLevel;
 const level = casterToken.data.data.details.level;
 
@@ -69,7 +70,7 @@ if (summon === 'Fuming') {
             'img': spiritImg,
         },
         actor: {
-            'name': `${summon} of ${casterToken.name}`,
+            'name': `${summon} Fey Spirit of ${casterToken.name}`,
             'data.attributes.ac.formula': 12 + spelllevel,
             'data.attributes.hp': { value: spiritHP, max: spiritHP },
             'data.details.cr': level,
@@ -95,7 +96,7 @@ if (summon === 'Mirthful') {
             'img': spiritImg,
         },
         actor: {
-            'name': `${summon} of ${casterToken.name}`,
+            'name': `${summon} Fey Spirit of ${casterToken.name}`,
             'data.attributes.ac.formula': 12 + spelllevel,
             'data.attributes.hp': { value: spiritHP, max: spiritHP },
             'data.details.cr': level,
@@ -122,7 +123,7 @@ if (summon === 'Tricksy') {
             'img': spiritImg,
         },
         actor: {
-            'name': `${summon} of ${casterToken.name}`,
+            'name': `${summon} Fey Spirit of ${casterToken.name}`,
             'data.attributes.ac.formula': 12 + spelllevel,
             'data.attributes.hp': { value: spiritHP, max: spiritHP },
             'data.details.cr': level,
