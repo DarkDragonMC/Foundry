@@ -68,6 +68,7 @@ if (summon === 'Fuming') {
     updates = {
         token: {
             'img': spiritImg,
+            'name': `${summon} Fey Spirit of ${casterToken.name}`,
         },
         actor: {
             'name': `${summon} Fey Spirit of ${casterToken.name}`,
@@ -94,6 +95,7 @@ if (summon === 'Mirthful') {
     updates = {
         token: {
             'img': spiritImg,
+            'name': `${summon} Fey Spirit of ${casterToken.name}`,
         },
         actor: {
             'name': `${summon} Fey Spirit of ${casterToken.name}`,
@@ -121,6 +123,7 @@ if (summon === 'Tricksy') {
     updates = {
         token: {
             'img': spiritImg,
+            'name': `${summon} Fey Spirit of ${casterToken.name}`,
         },
         actor: {
             'name': `${summon} Fey Spirit of ${casterToken.name}`,
