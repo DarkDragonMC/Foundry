@@ -6,7 +6,8 @@ Modified by DarkDragonMC for Summon Fey Spell Macro.
 
 Modules Used - MidiQOL, ItemMacro, Warpgate, JB2A (Free or Patreon), Sequencer [for the effects, optional]
 
-Set Up - You need to ensure you have an actor called 'Fey Spirit'
+Set Up - You need to ensure you have an actor called 'Fey Spirit' with a shortsword with proficient, finesse, and light unchecked and a -1 in attack rolls, or use this premade actor:
+
 
 MidiQOL OnUse -  ItemMacro - before active effect
 */
@@ -16,6 +17,7 @@ const tokenD = canvas.tokens.get(args[0].tokenId);
 const spelllevel = args[0].spellLevel;
 const level = casterToken.data.data.details.level;
 
+// create menu options
 let choices = await warpgate.dialog([
 
     {
@@ -42,6 +44,7 @@ let spiritArray = [choices[1],choices[2],choices[3]];
 spiritArray = spiritArray.filter(Boolean);
 let summon = spiritArray[0];
 
+// Name of Actor that will be used
 const summonType = `Fey Spirit`;
         
 let upcastHP = ' ';
@@ -63,8 +66,9 @@ let spiritImg = '';
         if (summon === 'Tricksy')  
         { spiritImg = 'https://i.imgur.com/c5ECJMf.png'; }
 
+// selects which token is created based on which option was chosen. 
 let updates = {}
-if (summon === 'Fuming') {
+if (summon === 'Fuming') { // Summons a Fuming Fey Spirit Token
     updates = {
         token: {
             'img': spiritImg,
@@ -83,14 +87,14 @@ if (summon === 'Fuming') {
                 "Multiattack":
                     { 'name': `Multiattack (${Math.floor(spelllevel / 2)} attacks)` },
                 "Shortsword":
-                    { 'data.damage.parts': [[`1d6  + @mod + ${spelllevel}`, 'piercing']] },
+                    { 'data.damage.parts': [[`1d6  + @mod + ${spelllevel}`, 'piercing'], ['1d6', 'force']] },
                 "Tricksy Step": warpgate.CONST.DELETE,
                 "Mirthful Step": warpgate.CONST.DELETE
             }
         },
     }
 }
-if (summon === 'Mirthful') {
+if (summon === 'Mirthful') { // Summons a Mirthful Fey Spirit Token
 
     updates = {
         token: {
@@ -110,7 +114,7 @@ if (summon === 'Mirthful') {
                 "Multiattack":
                     { 'name': `Multiattack (${Math.floor(spelllevel / 2)} attacks)` },
                 "Shortsword":
-                    { 'data.damage.parts': [[`1d6  + @mod + ${spelllevel}`, 'piercing']] },
+                    { 'data.damage.parts': [[`1d6  + @mod + ${spelllevel}`, 'piercing'], ['1d6', 'force']]},
                 "Tricksy Step": warpgate.CONST.DELETE,
                 "Fuming Step": warpgate.CONST.DELETE
             }
@@ -118,7 +122,7 @@ if (summon === 'Mirthful') {
     }
 }
 
-if (summon === 'Tricksy') {
+if (summon === 'Tricksy') { // Summons a Tricksy Fey Spirit Token
 
     updates = {
         token: {
@@ -138,7 +142,7 @@ if (summon === 'Tricksy') {
                 "Multiattack":
                     { 'name': `Multiattack (${Math.floor(spelllevel / 2)} attacks)` },
                 "Shortsword":
-                    { 'data.damage.parts': [[`1d6  + @mod + ${spelllevel}`, 'piercing']] },
+                    { 'data.damage.parts': [[`1d6  + @mod + ${spelllevel}`, 'piercing'], ['1d6', 'force']] },
                 "Fuming Step": warpgate.CONST.DELETE,
                 "Mirthful Step": warpgate.CONST.DELETE
             }
