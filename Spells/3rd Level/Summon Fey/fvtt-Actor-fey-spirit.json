@@ -1,0 +1,1058 @@
+{
+  "name": "Fey Spirit",
+  "type": "npc",
+  "img": "https://5etools-mirror-1.github.io/img/TCE/Fey Spirit.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 1
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 3
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 2
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 2
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 0
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "custom",
+        "formula": "@attributes.ac.armor + @attributes.ac.dex -1",
+        "min": 0,
+        "value": null
+      },
+      "hp": {
+        "value": 30,
+        "min": 0,
+        "max": 30,
+        "temp": null,
+        "tempmax": null,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 3,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 0,
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": {
+        "value": "fey",
+        "subtype": "",
+        "swarm": null,
+        "custom": ""
+      },
+      "environment": "",
+      "cr": "0",
+      "spellLevel": 0,
+      "xp": {
+        "value": 0
+      },
+      "source": "TCE",
+      "class": {},
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "sm",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "sylvan"
+        ],
+        "custom": "understands the languages you speak"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "name": "Fey Spirit",
+    "img": "assets/srd5e/img/TCE/Fey Spirit.png",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 0.8,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": true,
+    "dimSight": 60,
+    "brightSight": 0,
+    "sightAngle": 0,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "elevation": 0,
+    "actorData": {},
+    "effects": []
+  },
+  "items": [
+    {
+      "_id": "AIUVgB0D5BpibNGu",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The fey makes a number of attacks equal to half this spell's level (rounded down).</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "52899ca650f2fe4155f9ad4041aa04a502bb7ef5"
+        }
+      }
+    },
+    {
+      "_id": "rCHbJKyGOmEt5uwY",
+      "name": "Shortsword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-brown.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20 + @srd5e.userchar.spellAttackRanged]] (your spell attack modifier) to hit, reach 5 ft., one target. <i>Hit:</i> [[/r 1d6 + 3 + 3]] (1d6 + 3 + the spell's level) piercing damage[[/r  + 1d6]] force damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "quantity": 1,
+        "weight": 2,
+        "price": "10",
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": "@srd5e.userchar.spellAttackRanged - 1",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6+3+3",
+              "piercing"
+            ],
+            [
+              "1d6",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "baseItem": "shortsword",
+        "properties": {
+          "fin": false,
+          "lgt": false,
+          "amm": false,
+          "hvy": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false,
+          "ada": false,
+          "mgc": false,
+          "sil": false
+        },
+        "proficient": false,
+        "attuned": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "shortsword_phb"
+        },
+        "scene-packer": {
+          "hash": "153816635452b779be60483e92c3040373e135ce"
+        },
+        "midi-qol": {
+          "fumbleThreshold": null,
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "rollOther": false,
+          "critOther": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "toggleEffect": false
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        }
+      }
+    },
+    {
+      "_id": "QxOMpI3pMotAAeIK",
+      "name": "Tricksy Step",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\">\n<p>The fey magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the fey's chosen mood:</p>\n<p><span class=\"bold rd__list-item-name\" style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Tricksy.</span><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The fey can fill a 5-foot cube within 5 feet of it with magical darkness, which lasts until the end of its next turn.</span></p>\n</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 5,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "2476f80bf1a369915affadf8cc93784e531aa488"
+        },
+        "midi-qol": {
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "rollOther": false,
+          "critOther": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "toggleEffect": false
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        }
+      }
+    },
+    {
+      "_id": "ou7VWHrZ3ByU1PQP",
+      "name": "Fuming Step",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<p style=\"box-sizing:border-box;user-select:text;margin-bottom:5px;display:inline;color:#191813;font-size:13px\">The fey magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the fey's chosen mood:</p>\n<div class=\"rd__spc-inline-post\" style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"> </div>\n<ul class=\"rd__list rd__list-hang-notitle\" style=\"box-sizing:border-box;user-select:text;margin-top:5px;margin-bottom:0px;padding-left:0px;list-style:none;color:#191813;font-size:13px\">\n<li class=\"rd__li \" style=\"box-sizing:border-box;user-select:text;margin-bottom:3px;text-indent:-1.1em;margin-left:1.1em\">\n<p class=\"rd__p-list-item\" style=\"box-sizing:border-box;user-select:text;margin-top:0px;margin-bottom:3px;font-style:initial\"><span class=\"bold rd__list-item-name\" style=\"box-sizing:border-box;user-select:text;font-weight:bold !important;text-indent:initial\">Fuming.</span> The fey has advantage on the next attack roll it makes before the end of this turn.</p>\n</li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "25c3553bad09f49abe29777e26dbf90ccf7b7366"
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "midi-qol": {
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "rollOther": false,
+          "critOther": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "toggleEffect": false
+        },
+        "itemacro": {
+          "macro": {
+            "data": {
+              "_id": null,
+              "name": "Fuming Step",
+              "type": "script",
+              "author": "MuzJosUsP2lgs8yW",
+              "img": "icons/svg/dice-target.svg",
+              "scope": "global",
+              "command": "",
+              "folder": null,
+              "sort": 0,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            }
+          }
+        }
+      },
+      "newEffect": "new",
+      "changes": []
+    },
+    {
+      "_id": "jq9r0X6wdUdNqICv",
+      "name": "Mirthful Step",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<p style=\"box-sizing:border-box;user-select:text;margin-bottom:5px;display:inline;color:#191813;font-size:13px\">The fey magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the fey's chosen mood:</p>\n<div class=\"rd__spc-inline-post\" style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"> </div>\n<ul class=\"rd__list rd__list-hang-notitle\" style=\"box-sizing:border-box;user-select:text;margin-top:5px;margin-bottom:0px;padding-left:0px;list-style:none;color:#191813;font-size:13px\">\n<li class=\"rd__li \" style=\"box-sizing:border-box;user-select:text;margin-bottom:3px;text-indent:-1.1em;margin-left:1.1em\">\n<p class=\"rd__p-list-item\" style=\"box-sizing:border-box;user-select:text;margin-top:0px;margin-bottom:3px;font-style:initial\"><span class=\"bold rd__list-item-name\" style=\"box-sizing:border-box;user-select:text;font-weight:bold !important;text-indent:initial\">Mirthful.</span> The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is <a class=\"jlnk__entity-link\" style=\"box-sizing:border-box;user-select:text;background:#dddddd;padding:1px 4px;border:1px solid #4b4a44;border-radius:2px;white-space:nowrap;word-break:break-all;text-indent:initial\" title=\"SHIFT-Click to Import\" draggable=\"true\" data-plut-hover-page=\"conditionsdiseases.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"charmed_PHB\" data-plut-hover-tag=\"condition\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"condition[charmed]\"> charmed</a> by you and the fey for 1 minute or until the target takes any damage.</p>\n</li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "25c3553bad09f49abe29777e26dbf90ccf7b7366"
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "srd5e": {
+      "page": "bestiary.html",
+      "source": "TCE",
+      "hash": "fey%20spirit_tce"
+    },
+    "scene-packer": {
+      "hash": "a50a69d99f7da921034ef28475979a3876707591",
+      "sourceId": "Actor.AoFCH8wSHNlHv061",
+      "defaultPermission": 3
+    },
+    "tidy5e-sheet": {
+      "allow-edit": true
+    },
+    "exportSource": {
+      "world": "the-unknown-future",
+      "system": "dnd5e",
+      "coreVersion": "9.269",
+      "systemVersion": "1.6.3"
+    }
+  }
+}
