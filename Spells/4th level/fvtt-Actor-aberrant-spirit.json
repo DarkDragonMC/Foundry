@@ -1,0 +1,1227 @@
+{
+  "name": "Aberrant Spirit",
+  "type": "npc",
+  "img": "https://5etools-mirror-1.github.io/img/TCE/Aberrant Spirit.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 3
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 0
+      },
+      "con": {
+        "value": 15,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 2
+      },
+      "int": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 3
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 0
+      },
+      "cha": {
+        "value": 6,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": -2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "custom",
+        "formula": "@attributes.ac.armor + @attributes.ac.dex +1",
+        "min": 0,
+        "value": null
+      },
+      "hp": {
+        "value": 20,
+        "min": 0,
+        "max": 40,
+        "temp": null,
+        "tempmax": null,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 0,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": 30,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": true
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 0,
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": {
+        "value": "aberration",
+        "subtype": "",
+        "swarm": null,
+        "custom": ""
+      },
+      "environment": "",
+      "cr": "0",
+      "spellLevel": 0,
+      "xp": {
+        "value": 0
+      },
+      "source": "TCE",
+      "class": {},
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "psychic"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "deep"
+        ],
+        "custom": "understands the languages you speak"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "name": "Aberrant Spirit",
+    "img": "https://5etools-mirror-1.github.io/img/TCE/Aberrant Spirit.png",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": true,
+    "dimSight": 60,
+    "brightSight": 0,
+    "sightAngle": 0,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "elevation": 0,
+    "actorData": {},
+    "effects": []
+  },
+  "items": [
+    {
+      "_id": "dDNQNa48krRgxOW8",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The aberration makes a number of attacks equal to half this spell's level (rounded down).</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "monsterAction",
+          "source": "TCE",
+          "hash": "multiattack_aberrant%20spirit_tce_tce"
+        },
+        "scene-packer": {
+          "hash": "9fd6494098ab1ce5f7956ebfbd88b5f0cd7be6a7"
+        }
+      }
+    },
+    {
+      "_id": "1vmzdAtelMjgalMP",
+      "name": "Eye Ray (Beholderkin Only)",
+      "type": "weapon",
+      "img": "icons/commodities/biological/eye-tentacle-green-yellow.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Ranged Spell Attack:</i> [[/r 1d20 + @srd5e.userchar.spellAttackRanged]] (your spell attack modifier) to hit, range 150 ft., one creature. <i>Hit:</i> [[/r 1d8 + 3 + 4]] (1d8 + 3 + the spell's level) psychic damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "rsak",
+        "attackBonus": "- @attributes.prof - @mod + @srd5e.userchar.spellAttackRanged",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8 + 3 + 4",
+              "psychic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {},
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "monsterAction",
+          "source": "TCE",
+          "hash": "eye%20ray%20(beholderkin%20only)_aberrant%20spirit_tce_tce"
+        },
+        "scene-packer": {
+          "hash": "eacb170050c5a70c2b05939285041dde5a316c52"
+        }
+      }
+    },
+    {
+      "_id": "gRWY45HCBAVIzi34",
+      "name": "Claws (Slaad Only)",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20 + @srd5e.userchar.spellAttackRanged]] (your spell attack modifier) to hit, reach 5 ft., one target. <i>Hit:</i> [[/r 1d10 + 3 + 4]] (1d10 + 3 + the spell's level) slashing damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "mwak",
+        "attackBonus": "- @attributes.prof - @mod + @srd5e.userchar.spellAttackRanged",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d10 + 3 + 4",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {},
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "monsterAction",
+          "source": "TCE",
+          "hash": "claws%20(slaad%20only)_aberrant%20spirit_tce_tce"
+        },
+        "scene-packer": {
+          "hash": "2e4c2a76b9c51f66db189d2948fb9c926aa200ae"
+        }
+      }
+    },
+    {
+      "_id": "czV2W5D7WERITYsh",
+      "name": "Psychic Slam (Star Spawn Only)",
+      "type": "weapon",
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Spell Attack:</i> [[/r 1d20 + @srd5e.userchar.spellAttackRanged]] (your spell attack modifier) to hit, reach 5 ft., one creature. <i>Hit:</i> [[/r 1d8 + 3 + 4]] (1d8 + 3 + the spell's level) psychic damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "msak",
+        "attackBonus": "- @attributes.prof - @mod + @srd5e.userchar.spellAttackRanged",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8 + 3 + 4",
+              "psychic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {},
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "monsterAction",
+          "source": "TCE",
+          "hash": "psychic%20slam%20(star%20spawn%20only)_aberrant%20spirit_tce_tce"
+        },
+        "scene-packer": {
+          "hash": "a680556415d593cd4d42ed1fae0b50af9e2aa505"
+        }
+      }
+    },
+    {
+      "_id": "4ZtDOjOk0iCarvGY",
+      "name": "Regeneration (Slaad Only)",
+      "type": "feat",
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The aberration regains 5 hit points at the start of its turn if it has at least 1 hit point.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [
+        {
+          "_id": "6tvte5uk1ioe50oz",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null
+          },
+          "icon": "icons/skills/wounds/anatomy-organ-heart-red.webp",
+          "label": "Regeneration (Slaad Only)",
+          "origin": "Actor.STSidwap3lNQ6lRG.Item.4ZtDOjOk0iCarvGY",
+          "transfer": false,
+          "flags": {}
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "monsterTrait",
+          "source": "TCE",
+          "hash": "regeneration%20(slaad%20only)_aberrant%20spirit_tce_tce"
+        },
+        "scene-packer": {
+          "hash": "5afef8d0c13dac09d97b1f33972a0dce2c0e0902"
+        },
+        "midi-qol": {
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "rollOther": false,
+          "critOther": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "toggleEffect": false
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "itemacro": {
+          "macro": {
+            "data": {
+              "_id": null,
+              "name": "Regeneration (Slaad Only)",
+              "type": "script",
+              "author": "MuzJosUsP2lgs8yW",
+              "img": "icons/svg/dice-target.svg",
+              "scope": "global",
+              "command": "",
+              "folder": null,
+              "sort": 0,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "HLjKtI2bfpeVh22b",
+      "name": "Whispering Aura (Star Spawn Only)",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>At the start of each of the aberration's turns, each creature within 5 feet of the aberration must succeed on a Wisdom saving throw against your spell save DC or take [[/r 2d6]] psychic damage, provided that the aberration isn't @condition[incapacitated].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "2d6 psychic",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [
+        {
+          "_id": "jwuzmizp3gxg8tvs",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null
+          },
+          "icon": "modules/plutonium/media/icon/mighty-force.svg",
+          "label": "Whispering Aura (Star Spawn Only)",
+          "origin": "Actor.STSidwap3lNQ6lRG.Item.HLjKtI2bfpeVh22b",
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "selfTarget": false,
+              "stackable": "none",
+              "durationExpression": "",
+              "macroRepeat": "startEveryTurn",
+              "specialDuration": [],
+              "transfer": true
+            },
+            "core": {
+              "statusId": ""
+            },
+            "ActiveAuras": {
+              "isAura": true,
+              "aura": "All",
+              "radius": 1,
+              "alignment": "",
+              "type": "",
+              "ignoreSelf": true,
+              "height": true,
+              "hidden": false,
+              "displayTemp": false,
+              "hostile": false,
+              "onlyOnce": true
+            }
+          },
+          "tint": ""
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "MuzJosUsP2lgs8yW": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "monsterTrait",
+          "source": "TCE",
+          "hash": "whispering%20aura%20(star%20spawn%20only)_aberrant%20spirit_tce_tce"
+        },
+        "scene-packer": {
+          "hash": "fa8d015d937c62786d5423cbbe1d091c8299fd99"
+        },
+        "midi-qol": {
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "rollOther": false,
+          "critOther": false,
+          "magicdam": false,
+          "magiceffect": false,
+          "concentration": false,
+          "toggleEffect": false
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "_id": "L1SuBIDxuaHsJ4C6",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 1654474699
+      },
+      "icon": "modules/plutonium/media/icon/mighty-force.svg",
+      "label": "Whispering Aura (Star Spawn Only)",
+      "origin": "Actor.STSidwap3lNQ6lRG.Item.HLjKtI2bfpeVh22b",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "dae": {
+          "selfTarget": false,
+          "stackable": "none",
+          "durationExpression": "",
+          "macroRepeat": "startEveryTurn",
+          "specialDuration": [],
+          "transfer": true
+        },
+        "core": {
+          "statusId": ""
+        },
+        "ActiveAuras": {
+          "isAura": true,
+          "aura": "All",
+          "radius": 1,
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": true,
+          "height": true,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": true
+        }
+      }
+    }
+  ],
+  "flags": {
+    "srd5e": {
+      "page": "bestiary.html",
+      "source": "TCE",
+      "hash": "aberrant%20spirit_tce"
+    },
+    "scene-packer": {
+      "hash": "a50a69d99f7da921034ef28475979a3876707591",
+      "sourceId": "Actor.STSidwap3lNQ6lRG",
+      "defaultPermission": 3
+    },
+    "midi-qol": {
+      "concentration-damage": 20
+    },
+    "exportSource": {
+      "world": "the-unknown-future",
+      "system": "dnd5e",
+      "coreVersion": "9.269",
+      "systemVersion": "1.6.3"
+    }
+  }
+}
